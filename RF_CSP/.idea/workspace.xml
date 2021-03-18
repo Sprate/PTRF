@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="RF_CSP" targetName="RF_CSP_test" />
+      <config projectName="RF_CSP" targetName="RF_CSP" />
+      <config projectName="RF_CSP" targetName="RF_CSP_sub_test" />
+      <config projectName="RF_CSP" targetName="RF_CSP_train" />
+      <config projectName="RF_CSP" targetName="RF_CSP_2" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1968e0dc-e989-418f-bd5f-12ee097a63d5" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
+  <component name="ProjectId" id="1V6YI3Lrwib6ASNzMP2zpudu2A5" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="CMake Application.RF_CSP">
+    <configuration name="RF_CSP" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="RF_CSP" TARGET_NAME="RF_CSP" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="RF_CSP" RUN_TARGET_NAME="RF_CSP">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RF_CSP_2" type="CMakeRunConfiguration" factoryName="Application" singleton="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="RF_CSP" TARGET_NAME="RF_CSP_2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="RF_CSP" RUN_TARGET_NAME="RF_CSP_2">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RF_CSP_sub_test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="RF_CSP" TARGET_NAME="RF_CSP_sub_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="RF_CSP" RUN_TARGET_NAME="RF_CSP_sub_test">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RF_CSP_test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="RF_CSP" TARGET_NAME="RF_CSP_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="RF_CSP" RUN_TARGET_NAME="RF_CSP_test">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RF_CSP_train" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="RF_CSP" TARGET_NAME="RF_CSP_train" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="RF_CSP" RUN_TARGET_NAME="RF_CSP_train">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.RF_CSP" />
+      <item itemvalue="CMake Application.RF_CSP_2" />
+      <item itemvalue="CMake Application.RF_CSP_sub_test" />
+      <item itemvalue="CMake Application.RF_CSP_test" />
+      <item itemvalue="CMake Application.RF_CSP_train" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1968e0dc-e989-418f-bd5f-12ee097a63d5" name="Default Changelist" comment="" />
+      <created>1576574928143</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1576574928143</updated>
+      <workItem from="1576574930444" duration="12667000" />
+      <workItem from="1576654193767" duration="13492000" />
+      <workItem from="1576679172833" duration="25968000" />
+      <workItem from="1576941576955" duration="14605000" />
+      <workItem from="1577007635099" duration="16624000" />
+      <workItem from="1577263950847" duration="893000" />
+      <workItem from="1579103977132" duration="11000" />
+      <workItem from="1581512552578" duration="1580000" />
+      <workItem from="1581585203879" duration="2232000" />
+      <workItem from="1581601598208" duration="4319000" />
+      <workItem from="1581757974679" duration="8880000" />
+      <workItem from="1581781571715" duration="2668000" />
+      <workItem from="1581823099545" duration="5688000" />
+      <workItem from="1581849846373" duration="610000" />
+      <workItem from="1581859436594" duration="1229000" />
+      <workItem from="1583240678393" duration="1314000" />
+      <workItem from="1584796550045" duration="4527000" />
+      <workItem from="1591108300789" duration="200000" />
+      <workItem from="1592643738521" duration="29997000" />
+      <workItem from="1608817370018" duration="9820000" />
+      <workItem from="1608879521321" duration="1509000" />
+      <workItem from="1608883228418" duration="6976000" />
+      <workItem from="1609161960208" duration="3210000" />
+      <workItem from="1609481744072" duration="3190000" />
+      <workItem from="1609488701299" duration="33761000" />
+      <workItem from="1609927152607" duration="780000" />
+      <workItem from="1610004050765" duration="20000" />
+      <workItem from="1610181422126" duration="38148000" />
+      <workItem from="1611127512406" duration="56270000" />
+      <workItem from="1611652835915" duration="12000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/emp-sh2pc/bob_eva.cpp</url>
+          <line>302</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

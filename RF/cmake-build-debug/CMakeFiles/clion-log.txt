@@ -1,0 +1,9 @@
+/home/qhh/Clion/clion-2019.2.5/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/qhh/CLionProjects/code/RF
+-- Build type: Debug
+-- CXX Flags: -pthread -Wall -march=native -O3 -maes -mrdseed -std=c++11 -ggdb
+[31m-- Source of Randomness: random_device[m
+-- GMP libs: /usr/local/lib/libgmp.so /usr/lib/x86_64-linux-gnu/libgmpxx.so
+-- GMP libs: /usr/local/lib/libgmp.so /usr/lib/x86_64-linux-gnu/libgmpxx.so
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/qhh/CLionProjects/code/RF/cmake-build-debug

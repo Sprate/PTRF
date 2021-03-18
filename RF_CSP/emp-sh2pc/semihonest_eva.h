@@ -1,0 +1,88 @@
+#ifndef SEMIHONEST_EVA_H__
+#define SEMIHONEST_EVA_H__
+#include <emp-tool/emp-tool.h>
+#include <emp-ot/emp-ot.h>
+#include <iostream>
+
+namespace emp {
+template<typename IO>
+class SemiHonestEva: public ProtocolExecution {
+public:
+	IO* io = nullptr;
+	SHOTExtension<IO>* ot;
+	HalfGateEva<IO,off> * gc;
+	PRG shared_prg;
+	bool *di= nullptr;
+	SemiHonestEva(IO *io, HalfGateEva<IO,RTCktOpt ::off> * gc): ProtocolExecution(BOB) {
+		this->io = io;
+		ot = new SHOTExtension<IO>(io);
+		this->gc = gc;	
+		block seed; io->recv_block(&seed, 1);
+		shared_prg.reseed(&seed);
+	}
+	~SemiHonestEva() {
+		delete ot;
+	}
+
+	void feed(block * label, int party, const bool* b, int length) {
+		if(party == ALICE) {
+			shared_prg.random_block(label, length);
+		} else {
+			ot->recv_impl(label, b, length);
+		}
+	}
+
+    void reveal(bool * b, int party, const block * label, int length)
+    {
+        for (int i = 0; i < length; ++i)
+        {
+            bool lsb = getLSB(label[i]), tmp;
+
+            if (party == BOB or party == PUBLIC)
+            { tmp=*di;
+              //std::cout<<"tmp is"<<tmp<<endl;
+              //std::cout<<lsb<<endl;
+              b[i] = (tmp != lsb);
+              //std::cout<<b[i]<<endl;
+              ++di;
+            }
+        }
+    }
+    /*void reveal(bool * b, int party, const block * label, int length) {
+        if (party == XOR) {
+            for (int i = 0; i < length; ++i) {
+                if (isOne(&label[i]))
+                    b[i] = true;
+                else if (isZero(&label[i]))
+                    b[i] = false;
+                else
+                    b[i] = getLSB(label[i]);
+            }
+            return;
+        }
+        for (int i = 0; i < length; ++i) {
+            if(isOne(&label[i]))
+                b[i] = true;
+            else if (isZero(&label[i]))
+                b[i] = false;
+            else {
+                bool lsb = getLSB(label[i]), tmp;
+                if (party == BOB or party == PUBLIC) {
+                    io->recv_data(&tmp, 1);
+                    std::cout<<"tmp is"<<tmp<<endl;
+                    //std::cout<<lsb<<endl;
+                    b[i] = (tmp != lsb);
+                } else if (party == ALICE) {
+                    io->send_data(&lsb, 1);
+                    b[i] = false;
+                }
+            }
+        }
+        if(party == PUBLIC)
+            io->send_data(b, length);
+    }*/
+
+};
+}
+
+#endif// GARBLE_CIRCUIT_SEMIHONEST_H__
